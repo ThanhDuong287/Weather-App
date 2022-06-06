@@ -6,9 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css" type="text/css">
     <link rel="icon" href="./images/weather.png" type="image/x-icon">
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css'>
     <title>Weather App</title>
 </head>
 <body>
+    <div class="wrapper">
+        <header>
+            <i class="bx bx-left-arrow-alt"></i>
+            Weather App
+        </header>
+        <section class="input-part">
+            <p class="info-txt">Please enter a valid city name</p>
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <div class="separator"></div>
+            <button>Get Device Location</button>
+        </section>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
